@@ -75,6 +75,7 @@ export default function LoginFb() {
       </Head>
         <button onClick={()=> loginFacebook()}><i className="bi bi-facebook"></i></button>
         <p className="halo">halo</p>
+        <p>msbxnsjcbxdmbc</p>
     </div>
   )
 }
