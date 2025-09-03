@@ -29,7 +29,7 @@ export  function Login(){
            <div className="container-input flex flex-col gap-5  w-90 h-100  justify-center items-center relative top-40 left-5 sm:w-400 sm:left-[-400px] ">
               <input className="input relative  border bg-yellow-700 p-2 rounded-lg placeholder-white"placeholder="username"></input>
               <input className="input relative  bg-yellow-700 p-2 rounded-lg placeholder-white" placeholder="password"></input>
-              <button className="border border-red-500 rounded-lg w-50 p-2 relative" onClick={()=> {login()}}>Login</button>
+              <button className="border border-red-500 rounded-lg w-50 p-2 relative" onClick={()=> {login()}}>Loginn</button>
            </div>
         </main>
     )
