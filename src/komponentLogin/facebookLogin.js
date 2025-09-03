@@ -2,7 +2,7 @@
 
 import { useState,useEffect } from "react";
 import Head from "next/head";
-import './login.css'
+import './face.css'
 
 
 export default function LoginFb() {
@@ -73,7 +73,8 @@ export default function LoginFb() {
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
 
       </Head>
-        <button onClick={()=> loginFacebook()}><i className=" facebook  bi bi-facebook text-blue-600"></i></button>
+        <button onClick={()=> loginFacebook()}><i className="bi bi-facebook"></i></button>
+        <p className="halo">halo</p>
     </div>
   )
 }
