@@ -30,6 +30,7 @@ export  function Login(){
               <input className="input relative  border bg-yellow-700 p-2 rounded-lg placeholder-white"placeholder="username"></input>
               <input className="input relative  bg-yellow-700 p-2 rounded-lg placeholder-white" placeholder="password"></input>
               <button className="border border-red-500 rounded-lg w-50 p-2 relative" onClick={()=> {login()}}>Loginn</button>
+              <p>HALO SAYA KONTOL</p>
            </div>
         </main>
     )
